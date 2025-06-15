@@ -44,9 +44,8 @@ The A2A client application connects to the A2A server and manages responses.
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/vcse59/GenerativeAI.git
-cd GenerativeAI
-git checkout feature-a2a-full-implementation
+git clone https://github.com/vcse59/Generative-AI-A2A-Application.git
+cd Generative-AI-A2A-Application
 ```
 
 ### Native Setup
