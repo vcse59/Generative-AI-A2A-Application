@@ -92,7 +92,7 @@ cd Generative-AI-A2A-Application
 
 1. **Install dependencies for each component:**
   ```bash
-  cd ../agent_server
+  cd agent_server
   poetry install
   cd ../agent_client
   poetry install
@@ -100,11 +100,13 @@ cd Generative-AI-A2A-Application
 
 2. **Start the A2A server in a new terminal with the virtual environment activated:**
   ```bash
+  cd agent_server
   poetry run agent-server
   ```
 
 3. **Start the agent client in a new terminal with the virtual environment activated:**
   ```bash
+  cd agent_client
   poetry run agent-client
   ```
 
